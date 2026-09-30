@@ -3,11 +3,11 @@
 "version": "1.0.0",
 "description": "BDD automation framework for SauceDemo using Playwright, TypeScript and Cucumber",
 "scripts": {
-"test:bdd": "ts-node test-runner/runner.ts",
-"test:bdd:smoke": "ts-node test-runner/runner.ts @smoke",
-"test:bdd:regression": "ts-node test-runner/runner.ts @regression",
-"test:bdd:headed": "cross-env HEADLESS=false ts-node test-runner/runner.ts",
-"test:bdd:uat": "cross-env TEST_ENV=uat ts-node test-runner/runner.ts",
+"test:bdd": "bddgen && playwright test",
+"test:bdd:smoke": "bddgen && playwright test --grep @smoke",
+"test:bdd:regression": "bddgen && playwright test --grep @Regression",
+"test:bdd:headed": "bddgen && playwright test --headed",
+"test:bdd:uat": "cross-env ENV=uat bddgen && cross-env ENV=uat playwright test",
 "install:browsers": "playwright install"
 },
 "engines": {
@@ -19,8 +19,10 @@
 "@playwright/test": "^1.44.0",
 "@types/node": "^20.11.0",
 
+"allure-playwright": "^3.10.2",
 "cross-env": "^7.0.3",
 "dotenv": "^16.4.5",
+"playwright-bdd": "^9.2.0",
 "ts-node": "^10.9.2",
 "typescript": "^5.4.5"
 }

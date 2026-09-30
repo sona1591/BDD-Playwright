@@ -19,8 +19,16 @@ export class LoginPage extends BasePage {
    * Encapsulates credentials entry and submits the form
    */
   async login(user: string, pass: string) {
+    await this.enterCredentials(user, pass);
+    await this.submitLogin();
+  }
+
+  async enterCredentials(user: string, pass: string) {
     await this.usernameInput.fill(user);
     await this.passwordInput.fill(pass);
+  }
+
+  async submitLogin() {
     await this.loginButton.click();
   }
 }

@@ -12,7 +12,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 366984099
+              "duration": 597996500
             },
             "keyword": "Before",
             "hidden": true
@@ -39,47 +39,38 @@
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
             "line": 7,
-            "name": "I add \"Sauce Labs Backpack\" to the cart",
-            "match": {
-              "location": "step-definitions\\cart.steps.ts:4"
-            }
+            "name": "I add \"Sauce Labs Backpack\" to the cart"
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "I see cart badge count as \"1\"",
-            "match": {
-              "location": "step-definitions\\cart.steps.ts:11"
-            }
+            "name": "I see cart badge count as \"1\""
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
             "line": 9,
-            "name": "I see \"Sauce Labs Backpack\" in the cart",
-            "match": {
-              "location": "step-definitions\\cart.steps.ts:19"
-            }
+            "name": "I see \"Sauce Labs Backpack\" in the cart"
           },
           {
             "result": {
               "status": "passed",
-              "duration": 580658200
+              "duration": 372110600
             },
             "keyword": "After",
             "hidden": true
@@ -103,7 +94,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 185949500
+              "duration": 576022299
             },
             "keyword": "Before",
             "hidden": true
@@ -130,86 +121,68 @@
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "I add \"Sauce Labs Backpack\" to the cart",
-            "match": {
-              "location": "step-definitions\\cart.steps.ts:4"
-            }
+            "name": "I add \"Sauce Labs Backpack\" to the cart"
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 16,
-            "name": "I see cart badge count as \"1\"",
-            "match": {
-              "location": "step-definitions\\cart.steps.ts:11"
-            }
+            "name": "I see cart badge count as \"1\""
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "When ",
             "line": 17,
-            "name": "I proceed to checkout",
-            "match": {
-              "location": "step-definitions\\add-to-cart.steps.ts:5"
-            }
+            "name": "I proceed to checkout"
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
             "line": 18,
-            "name": "I fill in checkout information with \"John\" \"Doe\" \"12345\"",
-            "match": {
-              "location": "step-definitions\\add-to-cart.steps.ts:10"
-            }
+            "name": "I fill in checkout information with \"John\" \"Doe\" \"12345\""
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "And ",
             "line": 19,
-            "name": "I finish the checkout",
-            "match": {
-              "location": "step-definitions\\add-to-cart.steps.ts:20"
-            }
+            "name": "I finish the checkout"
           },
           {
             "result": {
-              "status": "skipped",
+              "status": "undefined",
               "duration": 0
             },
             "arguments": [],
             "keyword": "Then ",
             "line": 20,
-            "name": "I see the order confirmation page",
-            "match": {
-              "location": "step-definitions\\add-to-cart.steps.ts:24"
-            }
+            "name": "I see the order confirmation page"
           },
           {
             "result": {
               "status": "passed",
-              "duration": 78903400
+              "duration": 152200600
             },
             "keyword": "After",
             "hidden": true
@@ -253,7 +226,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 271426999
+              "duration": 382989899
             },
             "keyword": "Before",
             "hidden": true
@@ -301,7 +274,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 444406899
+              "duration": 93099500
             },
             "keyword": "After",
             "hidden": true
@@ -325,7 +298,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 181504899
+              "duration": 218134500
             },
             "keyword": "Before",
             "hidden": true
@@ -373,7 +346,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 44643699
+              "duration": 109421199
             },
             "keyword": "After",
             "hidden": true
@@ -408,7 +381,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 162793399
+              "duration": 231012099
             },
             "keyword": "Before",
             "hidden": true
@@ -446,7 +419,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 92043200
+              "duration": 98282099
             },
             "keyword": "After",
             "hidden": true
