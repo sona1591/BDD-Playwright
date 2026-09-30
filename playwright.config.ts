@@ -4,9 +4,10 @@ import { Config } from './utils/config'
 
 const testDir = defineBddConfig({
   features: 'features/*.feature',
-  steps: 'src/steps/*.ts',
-  // 👇 ADD THIS LINE TO LINK YOUR FIXTURE TO THE COMPILER
-  importTestFrom: 'src/fixtures/bdd-fixtures.ts', 
+  steps: [
+    'src/steps/*.ts',
+    'src/fixtures/bdd-fixtures.ts',
+  ],
 });
 
 export default defineConfig({
