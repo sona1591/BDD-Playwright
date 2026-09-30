@@ -1,0 +1,26 @@
+{
+"name": "playwright-bdd-framework",
+"version": "1.0.0",
+"description": "BDD automation framework for SauceDemo using Playwright, TypeScript and Cucumber",
+"scripts": {
+"test:bdd": "ts-node test-runner/runner.ts",
+"test:bdd:smoke": "ts-node test-runner/runner.ts @smoke",
+"test:bdd:regression": "ts-node test-runner/runner.ts @regression",
+"test:bdd:headed": "cross-env HEADLESS=false ts-node test-runner/runner.ts",
+"test:bdd:uat": "cross-env TEST_ENV=uat ts-node test-runner/runner.ts",
+"install:browsers": "playwright install"
+},
+"engines": {
+  "node": "22 || 24 || >=26"
+},
+"devDependencies": {
+"@cucumber/cucumber": "^10.3.1",
+"@playwright/test": "^1.44.0",
+"@types/node": "^20.11.0",
+
+"cross-env": "^7.0.3",
+"dotenv": "^16.4.5",
+"ts-node": "^10.9.2",
+"typescript": "^5.4.5"
+}
+}
